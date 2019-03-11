@@ -10,7 +10,7 @@ public class Util {
     public static void main(String[] args) {
         int[] myArray = {1, 2, 3};
         System.out.println("max: " + max(myArray));
-        System.out.println("sum: " + max(myArray));
+        System.out.println("sum: " + sum(myArray));
         System.out.println(getHelloWorld());
     }
 
@@ -25,7 +25,12 @@ public class Util {
      * @return the largest of values.
      */
     public static int max(int[] values) {
-        throw new UnsupportedOperationException();
+        int maximum = values[0];
+
+        for (int i = 0; i < values.length; i++)
+            if (maximum < values[i]) maximum = values[i];
+
+        return maximum;
     }
 
     /**
@@ -35,7 +40,12 @@ public class Util {
      * @return the sum of all values.
      */
     public static long sum(int[] values) {
-        throw new UnsupportedOperationException();
+        long summa = 0;
+
+        for (int i = 0; i < values.length; i++){
+            summa += values[i];}
+
+        return summa;
     }
 
 
