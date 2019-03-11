@@ -42,8 +42,9 @@ public class Util {
     public static long sum(int[] values) {
         long summa = 0;
 
-        for (int i = 0; i < values.length; i++){
-            summa += values[i];}
+        for (int i = 0; i < values.length; i++) {
+            summa += values[i];
+        }
 
         return summa;
     }
