@@ -1,0 +1,9 @@
+2019-03-14 23:28:03.355 INFO [main] [ru.example.Game] [main] [ru.example.Game.main(Game.java:20)] - Start Game
+2019-03-14 23:28:03.405 INFO [main] [ru.example.Game] [mainGame] [ru.example.Game.mainGame(Game.java:28)] - Get word klans
+2019-03-14 23:31:09.627 INFO [main] [ru.example.Game] [main] [ru.example.Game.main(Game.java:20)] - Start Game
+2019-03-14 23:31:09.677 INFO [main] [ru.example.Game] [mainGame] [ru.example.Game.mainGame(Game.java:28)] - Get word dizz
+2019-03-14 23:31:16.002 INFO [main] [ru.example.Game] [mainGame] [ru.example.Game.mainGame(Game.java:39)] - Enter is wrong
+2019-03-14 23:31:46.103 INFO [main] [ru.example.Game] [main] [ru.example.Game.main(Game.java:20)] - Start Game
+2019-03-14 23:31:46.153 INFO [main] [ru.example.Game] [mainGame] [ru.example.Game.mainGame(Game.java:28)] - Get word avick
+2019-03-14 23:31:54.403 INFO [main] [ru.example.Game] [countBulls] [ru.example.Game.countBulls(Game.java:98)] - Player's word have 1 bulls
+2019-03-14 23:31:54.403 INFO [main] [ru.example.Game] [countCows] [ru.example.Game.countCows(Game.java:133)] - Player's word have 0 cows
