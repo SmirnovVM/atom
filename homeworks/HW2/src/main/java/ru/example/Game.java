@@ -15,10 +15,13 @@ import java.util.Scanner;
 
 public class Game {
     private static final org.slf4j.Logger log = LoggerFactory.getLogger(Game.class);
+
     public static void main(String[] argc) {
+
         System.out.println("Welcome to Bulls and Cows game!");
         log.info("Start Game");
         mainGame();
+
     }
 
     public static void mainGame() {
