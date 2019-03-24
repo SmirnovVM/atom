@@ -46,6 +46,8 @@ public class ChatClientTest {
 
     @Test
     public void say() throws IOException {
+        Response response1 = ChatClient.login(MY_NAME_IN_CHAT);
+        System.out.println("[" + response1 + "]");
         Response response = ChatClient.say(MY_NAME_IN_CHAT, MY_MESSAGE_TO_CHAT);
         System.out.println("[" + response + "]");
         System.out.println(response.body().string());
